@@ -1,0 +1,27 @@
+---
+title: "30 octubre"
+author: "Arichabala/Marchan"
+date: "30/10/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Crisis en Chile
+
+##Causas
+
+###EL ALZA DEL METRO
+
+Quienes hemos recorrido Santiago de Chile, nos sorprendemos por el orden en su transporte público, donde solo hay tres tipos vehículos: El subterráneo o Metro, que recorre toda la ciudad y desde mediados de 1970 es el principal medio de transporte de la población. A diferencia de Lima, donde hay usuarios que nunca han tomado el Metro o el Metropolitano, sencillamente porque el transporte público aquí es un caos, pues paralelamente al sistema formal hay combis, microbuses, taxis formales o informales, taxi colectivos y mototaxis. Por eso, cuando hubo una subida de cien por ciento del boleto de los alimentadores del Metropolitano, no se escuchó ninguna protesta. En Santiago solo hay taxis Remix, de empresas privadas, buses como los de los corredores limeños y el Metro. Por eso un alza en su boleto engloba a vastos sectores de la sociedad. Y a pesar de que la tarifa está subsidiada por el Estado, según estudios, es después de Brasil el más caro de Latinoamérica. Fueron los estudiantes, secundarios y universitarios, los que por la redes sociales convocaron a ‘evasiones masivas’ (saltarse los controles), pero como fueron repelidos a varazos por las fuerzas especiales decidieron ‘asaltar en masa las estaciones’. También hubo infiltrados -los que quemaron el edificio del diario El Mercurio en Valparaíso- o el oportunismo lumpen delincuencial que optó por el vandalismo y los saqueos.
+
+###PROTESTAS POR IGUALDAD
+
+Según estudios en Santiago, hay familias de bajos recursos que destinan ¡¡el 30 %!! de su sueldo a transporte, mientras en el sector económico más rico solo se destina el 2 %. Lo que sucede hoy en Chile es que durante el ‘milagro económico chileno autoritario’ en la dictadura pinochetista de los ochentas y noventas, emergió y creció una clase media que hoy, con sus pensiones de la AFP de la que fueron los primeros aportantes, no les alcanzan. Los sueldos son bajos, pues las grandes corporaciones durante los gobiernos socialistas prefirieron exportar sus capitales y empresas a países vecinos con gobiernos endurecidos laboralmente, como el que les ofreció Fujimori en los noventas. Son los hijos de esa clase media quienes le reclaman al Estado mayor intervención en la educación pública, y sus padres en los sistemas de salud y resolver el problema de las pensiones irrisorias. Piñera, indolente, llamó ‘delincuentes’ a los estudiantes. La derecha y la izquierda, que se alternaron en el poder, tienen gran responsabilidad ante esta hecatombe. 
+
+###Respuesta del Presidente
+
+>"Es verdad que los problemas no se han producido en los últimos días. Se venían acumulando hacia décadas. Es verdad también que los distintos gobiernos no fueron y no fuimos capaces de reconocer esta situación en toda su magnitud".- Presidente Sebastián Piñera
+
