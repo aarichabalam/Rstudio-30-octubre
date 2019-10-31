@@ -1,0 +1,37 @@
+---
+title: "Proyecto"
+author: "Andres Arichabala - David Marchan"
+date: "October 31, 2019"
+output: html_document
+---
+
+## Personal Expenditure Data
+
+Este archivo resumen las cifras acerca de la data de gastos personales de Estados Unidos (en billones de dolares), de acuerdo a diversas categorias tales como: Consumo de comida y tabaco, vivienda, salud, cuidado personales, education para los anios 1940, 1945, 1950, 1955 y 1960.
+
+```{r pressure, echo=FALSE}
+pe <- t(USPersonalExpenditure) 
+total <- pe[,1]+pe[,2]+pe[,3]+pe[,4]+pe[,5]
+total <- t(t(total))
+colnames(total) <- c("total")
+pe <- cbind(pe,total)
+
+anios <- rownames(pe)
+anios <- t(t(as.integer(anios)))
+colnames(anios) <- c("Anios")
+pe <- cbind(anios,pe)
+```
+
+```{r table, echo=FALSE}
+library(knitr)
+resumen <- pe[,2:7]
+kable(resumen, caption = "Tabla resumen", align = 'c', col.names = c("Comida", "Vivienda", "Salud", "Personal", "Educacion", "Total"))
+```
+
+```{r graph, echo=FALSE}
+plot(pe[,1], pe[,7], 
+     main = "Total gastos", 
+     xlab = "Anios", 
+     ylab = "Valor en billones")
+lines(pe[,1], pe[,7], col = "blue")
+```
